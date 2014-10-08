@@ -1,0 +1,15 @@
+{
+  "name": "Being Good",
+  "version": "1.0",
+  "description": "Prevent bullshit things",
+  "permissions": ["webRequest", "webRequestBlocking",
+                  "<all_urls>"],
+  "background": {
+    "scripts": ["links.js", "background.js","popup.js"]
+  },
+  "browser_action":{
+  	//"default_popup": "popup.html"
+  },
+  "author":"Khang H. Nguyen-Le",
+  "manifest_version": 2
+}

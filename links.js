@@ -1,0 +1,1 @@
+var links = ["*://*.facebook.com/*"];
